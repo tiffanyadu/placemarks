@@ -20,9 +20,9 @@ class Search extends Component {
   render() {
     // Set default places to suggest
     const fixtures = [
-      {label: 'Dubai, United Arab Emirates', location: {lat: 25.263056, lng: 55.297222}},
-      {label: 'Istanbul, Turkey', location: {lat: 41.013611, lng: 28.955}},
-      {label: 'Bangkok, Thailand', location: {lat: 13.75, lng: 100.466667}}
+      {label: 'Chicago, IL, United States', location: {lat: 41.8781136, lng: -87.62979819999998}},
+      {label: 'San Francisco, CA, United States', location: {lat: 37.7749295, lng: -122.41941550000001}},
+      {label: 'New York, NY, United States', location: {lat: 40.7127837, lng: -74.00594130000002}}
     ];
 
     return (

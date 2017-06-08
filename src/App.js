@@ -14,10 +14,10 @@ class App extends Component {
     // Set initial state values for <App>
     this.state = {
       favorites: this.setFavorites(),
-      currentPlace: 'Mombasa, Kenya',
+      currentPlace: 'Chicago, IL, United States',
       coords: {
-        lat: -4.05,
-        lng: 39.666667
+        lat: 41.8781136,
+        lng: -87.62979819999998
       }
     };
     // Bind setLocation to the <App> component
